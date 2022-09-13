@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProApple - товары Apple</title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="img/faviconApple.png" type="image/png">
+
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="img/logo.svg" alt="Логотип ProApple" class="header_logo">
+
+            <nav class="header_navigation navigation">
+                <ul class="navigation_list">
+                    <li class="navigation-item">
+                        <a href="#goods" class="navigation-link">Продукты</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#features" class="navigation-link">Характеристики</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header_country country">
+                <button class="country_btn">Страна</button>
+                <ul class="country_list">
+                    <li class="country_item">
+                        <button class="country_btn">Russia, RUB</button>
+                    </li>
+                    <li class="country_item">
+                        <button class="country_btn">USA, USD</button>
+                    </li>
+                    <li class="country_item">
+                        <button class="country_btn">Germany, EURO</button>
+                    </li>
+                    <li class="country_item">
+                        <button class="country_btn">Great Britain, GBP</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header> 
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="banner_content">
+                    <h1 class="hero_title">iPhone 14</h1>
+
+                    <h2 class="banner_subtitle">До конца скидок осталось</h2>
+
+                    <ul class="banner_timer timer">
+                        <li class="timer_item">
+                            <p class="timer_unit">364</p>
+                            <p class="timer_unit_description">дня</p>
+                        </li>
+                        <li class="timer_item">
+                            <p class="timer_unit">23</p>
+                            <p class="timer_unit_description">часа</p>
+                        </li>
+                        <li class="timer_item">
+                            <p class="timer_unit">45</p>
+                            <p class="timer_unit_description">минут</p>
+                        </li>
+                    </ul>
+
+                    <a href="#goods" class="banner_button">Выбери свою модель</a>
+                </div>
+            </div>
+        </section>
+        <section class="goods" id="goods">
+            <div class="container">
+                <p class="goods_tagline">Вы ждали этого</p>
+
+                <h2 class="goods_title">Все продукты новой линейки</h2>
+
+                <div class="goods_block">
+                    <ul class="goods_list">
+                        <li class="goods_item">
+                            <article class="goods_product product">
+                                <div class="product_image-wrapper">
+                                    <img src="img/iPhone14-pro.png" alt="iPhone 14 PRO" class="product_image">
+                                </div>
+
+                                <div class="product_info">
+                                    <h3 class="product_title">iPhone 14 PRO</h3>
+                                    <p class="product_price">$1050</p>
+                                </div>
+
+                                <button class="product_more">Узнать больше</button>
+
+                            </article>
+                        </li>
+
+                        <li class="goods_item">
+                            <article class="goods_product product">
+                                <div class="product_image-wrapper">
+                                    <img src="img/iPhone14.png" alt="iPhone 14" class="product_image">
+                                </div>
+
+                                <div class="product_info">
+                                    <h3 class="product_title">iPhone 14</h3>
+                                    <p class="product_price">$799</p>
+                                </div>
+
+                                <button class="product_more">Узнать больше</button>
+                                
+                            </article>
+                        </li>
+
+                        <li class="goods_item">
+                            <article class="goods_product product">
+                                <div class="product_image-wrapper">
+                                    <img src="img/AirPodsPro.png" alt="AirPods Pro" class="product_image">
+                                </div>
+
+                                <div class="product_info">
+                                    <h3 class="product_title">AirPods Pro</h3>
+                                    <p class="product_price">$249</p>
+                                </div>
+
+                                <button class="product_more">Узнать больше</button>
+                                
+                            </article>
+                        </li>
+                    </ul>
+
+                    <button class="goods_arrow goods_arrow_prev"></button>
+
+                    <button class="goods_arrow goods_arrow_next"></button>
+                </div>
+            </div>
+        </section>
+        <section class="features" id="features">
+            <div class="container">
+                <p class="feautures_tagline">Мы становимся лучше. Для вас</p>
+
+                <h2 class="features_title">Характеристики iPhone 14</h2>
+
+                <div class="features_wrapper">
+                    <img class="feature_image" src="img/iPhone.png" alt="">
+
+                    <ul class="features_list">
+                        <li class="features_item">
+                            <span class="features_item-title">вес</span>
+                            <span class="features_item-value">255 г</span>
+                        </li>
+                        <li class="features_item">
+                            <span class="features_item-title">оперативная память</span>
+                            <span class="features_item-value">6 гб</span>
+                        </li>
+                        <li class="features_item">
+                            <span class="features_item-title">встроенная память</span>
+                            <span class="features_item-value">128/256/512 гб</span>
+                        </li>
+                        <li class="features_item">
+                            <span class="features_item-title">аккумулятор</span>
+                            <span class="features_item-value">4325 мАч</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>   
+    <footer class="footer"></footer>
+</body>
+</html>
