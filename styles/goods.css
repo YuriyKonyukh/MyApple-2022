@@ -1,0 +1,35 @@
+.goods {
+    padding: 40px 0;
+}
+
+.goods_tagline {
+    text-align: center;
+    margin-bottom: 4px;
+}
+.goods_title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.goods_wrapper {
+    position: relative;
+}
+.goods_arrow {
+    position: absolute;
+    top: 115px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url('../img/arrow_left_slider.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.goods_arrow_prev {
+    left: -5px;
+}
+.goods_arrow_next {
+    right: -5px;
+    transform: rotate(180deg);
+}

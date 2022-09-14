@@ -13,7 +13,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header_container">
             <img src="img/logo.svg" alt="Логотип ProApple" class="header_logo">
 
             <nav class="header_navigation navigation">
@@ -50,7 +50,7 @@
         <section class="banner">
             <div class="container">
                 <div class="banner_content">
-                    <h1 class="hero_title">iPhone 14</h1>
+                    <h1 class="banner_title">iPhone 14</h1>
 
                     <h2 class="banner_subtitle">До конца скидок осталось</h2>
 
@@ -79,60 +79,95 @@
 
                 <h2 class="goods_title">Все продукты новой линейки</h2>
 
-                <div class="goods_block">
-                    <ul class="goods_list">
-                        <li class="goods_item">
-                            <article class="goods_product product">
-                                <div class="product_image-wrapper">
-                                    <img src="img/iPhone14-pro.png" alt="iPhone 14 PRO" class="product_image">
-                                </div>
+                <div class="goods_wrapper">
+                    <div class="goods_block">
+                        <ul class="goods_list">
+                            <li class="goods_item">
+                                <article class="goods_product product">
+                                    <div class="product_image-wrapper">
+                                        <img src="img/iPhone14-pro.png" alt="iPhone 14 PRO" class="product_image" width="200" height="200">
+                                    </div>
+    
+                                    <div class="product_info">
+                                        <h3 class="product_title">iPhone 14 PRO</h3>
+                                        <p class="product_price">$1050</p>
+                                    </div>
+    
+                                    <button class="product_more">Узнать больше</button>
+    
+                                </article>
+                            </li>
+    
+                            <li class="goods_item">
+                                <article class="goods_product product">
+                                    <div class="product_image-wrapper">
+                                        <img src="img/iPhone14.png" alt="iPhone 14" class="product_image" width="200" height="200">
+                                    </div>
+    
+                                    <div class="product_info">
+                                        <h3 class="product_title">iPhone 14</h3>
+                                        <p class="product_price">$799</p>
+                                    </div>
+    
+                                    <button class="product_more">Узнать больше</button>
+                                    
+                                </article>
+                            </li>
+    
+                            <li class="goods_item">
+                                <article class="goods_product product">
+                                    <div class="product_image-wrapper">
+                                        <img src="img/AirPodsPro.png" alt="AirPods Pro" class="product_image" width="200" height="200">
+                                    </div>
+    
+                                    <div class="product_info">
+                                        <h3 class="product_title">AirPods Pro</h3>
+                                        <p class="product_price">$249</p>
+                                    </div>
+    
+                                    <button class="product_more">Узнать больше</button>
+                                    
+                                </article>
+                            </li>
 
-                                <div class="product_info">
-                                    <h3 class="product_title">iPhone 14 PRO</h3>
-                                    <p class="product_price">$1050</p>
-                                </div>
+                            <li class="goods_item">
+                                <article class="goods_product product">
+                                    <div class="product_image-wrapper">
+                                        <img src="img/Apple_watch_ultra.png" alt="Apple Watch Ultra" class="product_image" width="200" height="200">
+                                    </div>
+    
+                                    <div class="product_info">
+                                        <h3 class="product_title">Apple Watch Ultra</h3>
+                                        <p class="product_price">$799</p>
+                                    </div>
+    
+                                    <button class="product_more">Узнать больше</button>
+                                    
+                                </article>
+                            </li>
 
-                                <button class="product_more">Узнать больше</button>
+                            <li class="goods_item">
+                                <article class="goods_product product">
+                                    <div class="product_image-wrapper">
+                                        <img src="img/Apple-watch-series-8.png" alt="Apple Watch Series 8" class="product_image" width="200" height="200">
+                                    </div>
+    
+                                    <div class="product_info">
+                                        <h3 class="product_title">Apple Watch Series 8</h3>
+                                        <p class="product_price">$399</p>
+                                    </div>
+    
+                                    <button class="product_more">Узнать больше</button>
+                                    
+                                </article>
+                            </li>
 
-                            </article>
-                        </li>
-
-                        <li class="goods_item">
-                            <article class="goods_product product">
-                                <div class="product_image-wrapper">
-                                    <img src="img/iPhone14.png" alt="iPhone 14" class="product_image">
-                                </div>
-
-                                <div class="product_info">
-                                    <h3 class="product_title">iPhone 14</h3>
-                                    <p class="product_price">$799</p>
-                                </div>
-
-                                <button class="product_more">Узнать больше</button>
-                                
-                            </article>
-                        </li>
-
-                        <li class="goods_item">
-                            <article class="goods_product product">
-                                <div class="product_image-wrapper">
-                                    <img src="img/AirPodsPro.png" alt="AirPods Pro" class="product_image">
-                                </div>
-
-                                <div class="product_info">
-                                    <h3 class="product_title">AirPods Pro</h3>
-                                    <p class="product_price">$249</p>
-                                </div>
-
-                                <button class="product_more">Узнать больше</button>
-                                
-                            </article>
-                        </li>
-                    </ul>
-
-                    <button class="goods_arrow goods_arrow_prev"></button>
-
-                    <button class="goods_arrow goods_arrow_next"></button>
+                        </ul>
+    
+                        <button class="goods_arrow goods_arrow_prev"></button>
+    
+                        <button class="goods_arrow goods_arrow_next"></button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -167,6 +202,24 @@
             </div>
         </section>
     </main>   
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <img src="img/logo-w.svg" alt="Логотип ProApple">
+
+                <div class="footer_navigation navigation">
+                    <ul class="navigation_list">
+                        <li class="navigation-item">
+                            <a href="#goods" class="navigation-link">Продукты</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#features" class="navigation-link">Характеристики</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer_copyright">Copyright © 2022 ProApple</p>
+        </div>
+    </footer>
 </body>
 </html>

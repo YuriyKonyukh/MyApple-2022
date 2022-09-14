@@ -1,0 +1,10 @@
+.navigation_list {
+    display: flex;
+    gap: 50px;
+}
+
+@media (min-width: 1024px) {
+    .navigation_list {
+        gap: 84px;
+    }
+}
