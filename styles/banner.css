@@ -54,6 +54,7 @@
         background-image: url('../img/bg-laptop.png');
         background-position: center;
         background-size: contain;
+        margin-bottom: 70px;
     }
 
     .banner_title {
@@ -72,6 +73,19 @@
 
     .banner_button {
         font-size: 16px;
+        transition-property: background-color, color;
+        transition-duration: 0.1s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .banner_button:hover,
+    .banner_button:focus {
+        background-color: #fff;
+    }
+
+    .banner_button:active {
+        background-color: #2238FF;
+        color: #fff;
     }
 
     .banner_content {

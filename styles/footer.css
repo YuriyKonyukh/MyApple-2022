@@ -1,0 +1,39 @@
+.footer {
+    padding: 20px 0 30px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.footer_navigation{
+    flex-basis: 100%;
+}
+
+.footer_copyright{
+    font-weight: 200;
+    font-size: 14px;
+}
+
+@media (min-width: 560px) {
+    .footer_content {
+        margin-bottom: 45px;
+    }
+
+    .footer_navigation {
+        flex-basis: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer_copyright{
+        font-size: 16px;
+    }
+}
